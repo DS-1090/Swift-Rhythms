@@ -1,0 +1,74 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("tay5.jpg");
+
+    animation: fadein 1s ease-in-out forwards;
+
+    background-color: #f4f4f4;
+}
+ .mood{
+      text-align: center;
+      color:darkslategray;
+    
+}
+ .container {
+    text-align: center;
+    background-color: #fff;
+    color:burlywood;
+    padding: 20px;
+    opacity:0.8 ;
+    border-radius: 15px;
+    animation: slideIn 3s ease-in-out forwards;  
+    width: 40%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#recc {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity:0.8 ;
+    border-radius: 15px;
+    color:darkslategray;
+    cursor: pointer;
+    background-color: burlywood;
+    border-color: #fff;
+}
+#songsList{
+    color:darkslategray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+}
+a {
+    text-decoration: none;
+    color:darkslategray;
+
+}
+ 
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%) translateX(-50%);
+
+    }
+}
+
+@keyframes fadein {
+    from{
+        opacity:0.5;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+
+ 
