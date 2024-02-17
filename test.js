@@ -1,5 +1,5 @@
-const CLIENT_ID = '45e65cfe12dc47f598cc9f7d4dd4bbd6';
-const CLIENT_SECRET = '30c3c7137f5141c391784be2e498426a';
+const CLIENT_ID = ' ';
+const CLIENT_SECRET = ' ';
 const SPOTIFY_API_TOKEN_URL = 'https://accounts.spotify.com/api/token';
 const SPOTIFY_API_SEARCH_URL = 'https://api.spotify.com/v1/search';
 
